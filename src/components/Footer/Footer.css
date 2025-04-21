@@ -1,0 +1,155 @@
+.footer {
+  height: 100vh;
+  background-color: #1c222b;
+  color: white;
+}
+
+.footer_container {
+  height: 100%;
+  /* background-color: red; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.footer_1 {
+  /* background-color: green; */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20%;
+  align-items: center;
+}
+
+.footer_1-1 {
+  width: 333px;
+  height: 203px;
+}
+
+.footer_logo {
+  display: flex;
+  width: 157px;
+  height: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+}
+
+.company_logo {
+  width: 17px;
+}
+
+.company_name {
+  font-family: "Sora", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.27px;
+  color: #f9fafb;
+}
+
+.socialLinks {
+  width: 100%;
+  height: 29px;
+}
+
+.socialLinks ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  gap: 25px;
+  font-size: 25px;
+}
+
+.socialLinks a {
+  color: white;
+}
+
+.footer-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.footer_2 {
+  border-top: 1px solid #2d3643;
+  color: #f9fafb;
+  display: flex;
+  height: 75px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_2 ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer_2 ul li a,
+.copyright {
+  text-decoration: none;
+  color: #f9fafb;
+  font-family: "Aeonik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.copyright {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -1.5%;
+}
+
+.footer_1-2 {
+  display: flex;
+  width: 40%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_1-2 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer_1-2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-name ul {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 0;
+}
+
+.col-name ul li a {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: -1.5%;
+  color: #f9fafb;
+}
+
+.heading {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f9fafb;
+}
